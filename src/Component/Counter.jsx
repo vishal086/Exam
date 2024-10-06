@@ -29,7 +29,7 @@ function Counter({ duration, onTimeUp })
   return (
     <>
       <div className="timer">
-        <h2>Time Left: {formatTime(timeLeft)}</h2>
+        <p>Time Left: {formatTime(timeLeft)}</p>
       </div>
     </>
   );
